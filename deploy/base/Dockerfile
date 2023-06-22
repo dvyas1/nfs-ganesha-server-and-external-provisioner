@@ -16,7 +16,7 @@
 #
 # NOTE: This Dockerfile is maintained to support being built both on amd64 and
 #       arm64 architectures.
-# TEST
+# TEST Forcing another build
 # List of Fedora versions: https://en.wikipedia.org/wiki/Fedora_version_history#Version_history
 ARG FEDORA_VERSION=36
 

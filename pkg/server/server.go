@@ -39,24 +39,24 @@ var defaultGaneshaConfigContents = []byte(`
 #
 ###################################################
 
-EXPORT {
-
-	# Export Id (mandatory, each EXPORT must have a unique Export_Id)
-	Export_Id = 0;
-	# Exported path (mandatory)
-	Path = /;
-	# Pseudo Path (required for NFS v4)
-	Pseudo = /;
-	Protocols = 4;
-	Access_Type = MDONLY_RO;
-	Filesystem_Id = 152.152;
-
-	FSAL {
-
-		Name = PSEUDO;
-
-	}
-}
+#EXPORT {
+#
+#	# Export Id (mandatory, each EXPORT must have a unique Export_Id)
+#	Export_Id = 0;
+#	# Exported path (mandatory)
+#	Path = /;
+#	# Pseudo Path (required for NFS v4)
+#	Pseudo = /;
+#	Protocols = 4;
+#	Access_Type = MDONLY_RO;
+#	Filesystem_Id = 152.152;
+#
+#	FSAL {
+#
+#		Name = PSEUDO;
+#
+#	}
+#}
 
 NFS_Core_Param
 {
